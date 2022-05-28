@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/17ba4552da.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+  <title>Youtube Moble</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="logo">
+      <i class="fa-brands fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+  </header>
+  <!--Video Playert-->
+
+  <setion class="player">
+    <video controls src="test.mp4" autoplay></video>
+  </setion>
+
+  <div class="infoAndUpNext">
+    <!--Video info-->
+    <section class="info">
+      <!-- Metadata-->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#DreamCoding</li>
+          <li>#DreamCoders</li>
+          <li>#Ellie</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트
+            따라만들기 | 프론트 엔드 개발자 입문편: HTML, CSS ,Javascript
+            드림코딩과 함께하는 프론트엔드 실전 입문편
+          </span>
+          <button class="moreBtn">
+            <i class="fa-solid fa-caret-down"> </i>
+          </button>
+        </div>
+        <span class="view"> 1M Views 1 month ago </span>
+      </div>
+      <!--Actions-->
+      <ul class="actions">
+        <li>
+          <button>
+            <i class="active fa-solid fa-thumbs-up"></i> <span>1K</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fa-solid fa-thumbs-down"></i> <span>0</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fa-solid fa-share"></i> <span>Share</span>
+          </button>
+        </li>
+        <li>
+          <button><i class="fa-solid fa-plus"></i> <span>Save</span></button>
+        </li>
+        <li>
+          <button>
+            <i class="fa-solid fa-flag"></i> <span>Report</span>
+          </button>
+        </li>
+      </ul>
+      <!-- Channel Description-->
+      <div class="channel">
+        <div class="metadata">
+          <img src="https://yt3.ggpht.com/ytc/AKedOLRfd_D7OLG7kY-j4nhX9VD-q4phRC-ErDTVn58gNw=s48-c-k-c0x00ffffff-no-rj"
+            alt="IMG" />
+          <div class="info">
+            <span class="name">드림코딩 by 엘리 </span>
+            <span class="subscribers">1M subcribers</span>
+          </div>
+        </div>
+        <button class="subscribe">구독</button>
+      </div>
+    </section>
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/vi/HBGN-jZDUrE/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAlpPbb2FvaZXrnMwFSNFSWqxkEXQ"
+              alt="" />
+          </div>
+          <div class="info">
+            <span class="title">프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발
+              입문자편 강의를 시작합니다 ★ (HTML, CSS, Javascript + 실전
+              프로젝트)</span>
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views"> 82K views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/vi/i0FN-OwJ7QI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDuSRt9OvE8Cm4pIGfJxWCwrY_kHA"
+              alt="" />
+          </div>
+
+          <div class="info">
+            <span class="title">HTML 기초, React 할때 곡 필요한 팁! 쉽다고 무시하면 안돼요 |
+              프론트엔드 개발자 입문편 : HTML ,CSS, Javascript
+            </span>
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views"> 82K views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img">
+            <img
+              src="https://i.ytimg.com/vi/OoA70D2TE0A/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC5ndodfxchUdJnwzz5oofnISyZGg"
+              alt="" />
+          </div>
+          <div class="info">
+            <span class="title">HTML 태그 완성, 웹 포트폴리오 만들기 전에 꼭 보세요 |
+              프론트엔드 개발자 입문편: HTML, CSS, Javascript
+            </span>
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views"> 82K views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
+</html>
